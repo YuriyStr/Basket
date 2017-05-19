@@ -8,5 +8,24 @@
 
 import Foundation
 
-println("Hello, World!")
+print("Generating fruits\n")
+var basket = Basket()
+for var i = 0; i < 5; i++
+{
+    var type = rand() % 2
+    if (type == 0)
+    {
+        basket.add(Apple())
+    }
+    else
+    {
+        basket.add(Banana())
+    }
+}
+
+print("Fruits: \n")
+for fruit in basket
+{
+    print ("\(fruit.type): \(fruit.UUIDString)\n")
+}
 

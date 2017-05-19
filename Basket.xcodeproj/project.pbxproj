@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		8415AE2B1EC8487A00C7F289 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415AE2A1EC8487A00C7F289 /* main.swift */; };
+		8415AE321EC848E200C7F289 /* Basket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415AE311EC848E200C7F289 /* Basket.swift */; };
+		8415AE341EC849C500C7F289 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415AE331EC849C500C7F289 /* Fruit.swift */; };
+		8415AE361EC849E000C7F289 /* Apple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415AE351EC849E000C7F289 /* Apple.swift */; };
+		8415AE381EC84A0D00C7F289 /* Banana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415AE371EC84A0D00C7F289 /* Banana.swift */; };
+		8415AE3B1EC8532900C7F289 /* BasketIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415AE3A1EC8532900C7F289 /* BasketIterator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		8415AE271EC8487A00C7F289 /* Basket */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Basket; sourceTree = BUILT_PRODUCTS_DIR; };
 		8415AE2A1EC8487A00C7F289 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8415AE311EC848E200C7F289 /* Basket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Basket.swift; sourceTree = "<group>"; };
+		8415AE331EC849C500C7F289 /* Fruit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
+		8415AE351EC849E000C7F289 /* Apple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Apple.swift; sourceTree = "<group>"; };
+		8415AE371EC84A0D00C7F289 /* Banana.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banana.swift; sourceTree = "<group>"; };
+		8415AE3A1EC8532900C7F289 /* BasketIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketIterator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				8415AE2A1EC8487A00C7F289 /* main.swift */,
+				8415AE311EC848E200C7F289 /* Basket.swift */,
+				8415AE3A1EC8532900C7F289 /* BasketIterator.swift */,
+				8415AE331EC849C500C7F289 /* Fruit.swift */,
+				8415AE351EC849E000C7F289 /* Apple.swift */,
+				8415AE371EC84A0D00C7F289 /* Banana.swift */,
 			);
 			path = Basket;
 			sourceTree = "<group>";
@@ -118,7 +133,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8415AE361EC849E000C7F289 /* Apple.swift in Sources */,
+				8415AE341EC849C500C7F289 /* Fruit.swift in Sources */,
 				8415AE2B1EC8487A00C7F289 /* main.swift in Sources */,
+				8415AE381EC84A0D00C7F289 /* Banana.swift in Sources */,
+				8415AE321EC848E200C7F289 /* Basket.swift in Sources */,
+				8415AE3B1EC8532900C7F289 /* BasketIterator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
